@@ -1,7 +1,7 @@
 # Microservice
 Example of microservice using Falcon, Token Authentication and generating an own token to access the content.
 
-To execute we use
+## To execute we use
 - gunicorn microservice_falcon:api
 ![Screenshot](img/img1.png)
 
@@ -23,7 +23,7 @@ Finally let's test with the generated token that we have
 - http http://localhost:8000/api Authorization:70b9db95-d606-42d2-ac8e-60a3d5dae8f3
 ![Screenshot](img/img4.png)
 
-cool!!!
+Cool!!!
 
 ## Credits
 This project would not be possible without:
